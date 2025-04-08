@@ -1,6 +1,6 @@
 @font-face {
     font-family: outfit;
-    src: url(/Outfit/Outfit-VariableFont_wght.ttf);
+    src: url(Outfit/Outfit-VariableFont_wght.ttf);
 }
 *{
     margin: 0;
@@ -48,7 +48,7 @@ body > .main > div:nth-child(4) div:nth-child(1){
     position: relative;
 }
 body > .main > div:nth-child(4) div:nth-child(1)::before{
-    content: url(/images/icon-ethereum.svg);
+    content: url(../images/icon-ethereum.svg);
     position: absolute;
     left: -15px;
 }
@@ -59,7 +59,7 @@ body > .main > div:nth-child(4) div:nth-child(2){
     position: relative;
 }
 body > .main > div:nth-child(4) div:nth-child(2)::before{
-    content: url(/images/icon-clock.svg);
+    content: url(../images/icon-clock.svg);
     position: absolute;
     left: -20px;
 }
